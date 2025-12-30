@@ -84,16 +84,16 @@ public class GunGen extends GunProvider
 
                 // General
                 .setFireMode(FireMode.AUTOMATIC)
-                .setFireRate(8)
+                .setFireRate(5)
                 .setGripType(GripType.MINI_GUN)
                 .setRecoilKick(1.5F)
-                .setRecoilAngle(4.0F)
+                .setRecoilAngle(3.0F)
                 .setAlwaysSpread(true)
                 .setProjectileAmount(10)
                 .setSpread(5.0F)
                 .setDrawTimer(52)
                 .setOverheatTimer(100)
-                .setShooterPushback(-0.065F)
+                .setShooterPushback(-0.095F)
 
                 // Reloads
                 .setMaxAmmo(40)
@@ -103,7 +103,7 @@ public class GunGen extends GunProvider
                 // Projectile
                 .setAmmo(ModItems.PISTOL_AMMO.get())
                 .setProjectileVisible(false)
-                .setDamage(18F)
+                .setDamage(12F)
                 .setProjectileSize(1F)
                 .setProjectileSpeed(7.8F)
                 .setProjectileLife(10)
