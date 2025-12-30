@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "weapons_of_continent:item/bolt_action_rifle"
+	},
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, 2.5, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "bolt",
+					"origin": [8, 4.8824, 13.0792],
+					"color": 3,
+					"children": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": -0.5,
+      "zOffset": -20.0
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "drawTimer": 52,
+    "fireMode": "jeg:automatic",
+    "gripType": "jeg:mini_gun",
+    "overheatTimer": 100,
+    "projectileAmount": 10,
+    "rate": 8,
+    "recoilAngle": 4.0,
+    "recoilKick": 1.5,
+    "shooterPushback": -0.065,
+    "spread": 5.0
+  },
+  "projectile": {
+    "advantage": "jeg:very_heavy",
+    "damage": 18.0,
+    "ejectsCasing": true,
+    "gravity": true,
+    "headshotMultiplier": 1.5,
+    "item": "jeg:pistol_ammo",
+    "life": 10,
+    "size": 1.0,
+    "speed": 7.800000190734863,
+    "trailColor": -256,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "additionalReloadTimer": 5,
+    "maxAmmo": 40,
+    "reloadTimer": 105,
+    "reloadType": "jeg:mag_fed"
+  },
+  "sounds": {
+    "ejectorPull": "jeg:item.assault_rifle.ejector_pull",
+    "ejectorRelease": "jeg:item.assault_rifle.ejector_release",
+    "enchantedFire": "weapons_of_continent:autocannon_fire",
+    "fire": "weapons_of_continent:autocannon_fire",
+    "reloadEnd": "jeg:item.assault_rifle.ejector_pull",
+    "reloadLoad": "jeg:item.assault_rifle.reload_magazine_out",
+    "reloadStart": "jeg:item.assault_rifle.reload_magazine_in",
+    "silencedFire": "weapons_of_continent:autocannon_fire"
+  }
+}

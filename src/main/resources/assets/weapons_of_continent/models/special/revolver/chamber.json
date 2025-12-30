@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "weapons_of_continent:item/revolver"
+	},
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, 2.5, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}

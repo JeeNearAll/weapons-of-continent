@@ -1,0 +1,22 @@
+{
+  "item.weapons_of_continent.armored_authority_armor.desc": "'Armored Authority' cosmetic bundle",
+  "item.weapons_of_continent.armored_authority_helmet": "Iron helmet",
+  "item.weapons_of_continent.armored_authority_chestplate": "Iron chestplate",
+  "item.weapons_of_continent.armored_authority_leggings": "Iron leggings",
+  "item.weapons_of_continent.armored_authority_boots": "Iron boots",
+
+  "item.weapons_of_continent.vanguard_armor.desc": "'Vanguard' cosmetic bundle",
+  "item.weapons_of_continent.vanguard_helmet": "Netherite helmet",
+  "item.weapons_of_continent.vanguard_chestplate": "Netherite chestplate",
+  "item.weapons_of_continent.vanguard_leggings": "Netherite leggings",
+  "item.weapons_of_continent.vanguard_boots": "Netherite boots",
+
+  "item.weapons_of_continent.intrusive_headset": "Intrusion headset",
+  "curios.identifier.cosmetic_slot": "cosmetic slot",
+
+  "item.weapons_of_continent.ar2": "Assault Rifle Mk.II",
+  "item.weapons_of_continent.autocannon_b": "Autocannon (Buckshot)",
+  "item.weapons_of_continent.revolver": "Field Revolver",
+  
+  "creativetab.weapons_of_continent": "Weapons of Continent"
+}

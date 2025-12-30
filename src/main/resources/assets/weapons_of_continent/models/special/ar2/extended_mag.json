@@ -1,0 +1,84 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "weapons_of_continent:item/ar2",
+		"particle": "weapons_of_continent:item/ar2"
+	},
+	"elements": [
+		{
+			"name": "extended_mag",
+			"from": [7.475, 0.69141, 9.73915],
+			"to": [8.525, 1.95141, 11.31415],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 1.42641, 10.52665]},
+			"faces": {
+				"north": {"uv": [2.25, 6.75, 2.5, 7.0625], "texture": "#0"},
+				"east": {"uv": [1.75, 6, 2.125, 6.3125], "texture": "#0"},
+				"south": {"uv": [2.5, 6.75, 2.75, 7.0625], "texture": "#0"},
+				"west": {"uv": [6, 1.75, 6.375, 2.0625], "texture": "#0"},
+				"up": {"uv": [5, 6.25, 5.25, 6.6875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "extended_mag",
+			"from": [7.48025, -0.22726, 9.59819],
+			"to": [8.51975, 1.03274, 11.17319],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0.50774, 10.38569]},
+			"faces": {
+				"north": {"uv": [2.75, 6.75, 3, 7.0625], "texture": "#0"},
+				"east": {"uv": [2.25, 6, 2.625, 6.3125], "texture": "#0"},
+				"south": {"uv": [3, 6.75, 3.25, 7.0625], "texture": "#0"},
+				"west": {"uv": [6, 2.25, 6.375, 2.5625], "texture": "#0"}
+			}
+		},
+		{
+			"name": "extended_mag",
+			"from": [7.4855, -1.07456, 9.16889],
+			"to": [8.5145, 0.50044, 10.42889],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, -0.28706, 9.90389]},
+			"faces": {
+				"north": {"uv": [6.75, 3.25, 6.5, 3.625], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2.75, 6, 3.125, 6.3125], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [6, 3.25, 6.375, 3.5625], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6.75, 3.25, 7, 3.5625], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [6.75, 3.75, 7, 4.0625], "texture": "#0"}
+			}
+		},
+		{
+			"name": "extended_mag",
+			"from": [7.49075, -1.62449, 8.41961],
+			"to": [8.50925, -0.04949, 9.67961],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, -0.83699, 9.15461]},
+			"faces": {
+				"north": {"uv": [3.75, 6.5, 3.5, 6.875], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [3.5, 6, 3.875, 6.3125], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [6, 4.25, 6.375, 4.5625], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [5, 6.75, 5.25, 7.0625], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [6.25, 6.75, 6.5, 7.0625], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, 2.5, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "magazine",
+					"origin": [8, -0.47522, 9.61388],
+					"color": 1,
+					"children": [
+						{
+							"name": "extended_mag",
+							"origin": [8, -0.47522, 9.61388],
+							"color": 3,
+							"children": [0, 1, 2, 3]
+						}
+					]
+				}
+			]
+		}
+	]
+}

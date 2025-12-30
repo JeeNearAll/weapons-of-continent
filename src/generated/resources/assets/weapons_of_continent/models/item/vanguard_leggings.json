@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "weapons_of_continent:item/vanguard_leggings"
+  }
+}

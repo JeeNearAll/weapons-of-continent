@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"misc.idle": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"scarf": {
+					"rotation": {
+						"vector": [
+							"-query.is_sneaking*90 - 2*math.atan(-100*query.vertical_speed) - math.atan(- 100*query.ground_speed) + query.head_x_rotation",
+							"-3*math.sin(90*query.anim_time) - query.yaw_speed",
+							"2*math.sin(90*query.anim_time)"
+						]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

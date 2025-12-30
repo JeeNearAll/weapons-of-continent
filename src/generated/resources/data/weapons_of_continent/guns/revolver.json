@@ -1,0 +1,54 @@
+{
+  "display": {
+    "flash": {
+      "size": 0.8,
+      "yOffset": 4.695,
+      "zOffset": -2.785
+    }
+  },
+  "general": {
+    "drawTimer": 20,
+    "fireMode": "jeg:semi_automatic",
+    "gripType": "jeg:one_handed",
+    "rate": 3,
+    "recoilAngle": 2.0,
+    "recoilKick": 0.23,
+    "spread": 6.0
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 3.85,
+      "zOffset": -1.75
+    }
+  },
+  "projectile": {
+    "advantage": "jeg:none",
+    "damage": 7.6,
+    "damageReduceOverLife": true,
+    "gravity": true,
+    "headshotMultiplier": 1.4,
+    "item": "jeg:pistol_ammo",
+    "life": 10,
+    "size": 0.05,
+    "speed": 7.0,
+    "trailColor": -256,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "additionalReloadTimer": 5,
+    "maxAmmo": 8,
+    "reloadTimer": 53,
+    "reloadType": "jeg:mag_fed"
+  },
+  "sounds": {
+    "ejectorPull": "minecraft:block.iron_trapdoor.open",
+    "ejectorRelease": "minecraft:block.iron_trapdoor.close",
+    "enchantedFire": "jeg:item.revolver.enchanted_fire",
+    "fire": "jeg:item.revolver.fire",
+    "reloadEnd": "jeg:item.revolver.chamber_spin",
+    "reloadLoad": "jeg:item.revolver.reload_bullet_in",
+    "reloadStart": "jeg:item.revolver.reload_bullets_out",
+    "silencedFire": "jeg:item.revolver.silenced_fire"
+  }
+}

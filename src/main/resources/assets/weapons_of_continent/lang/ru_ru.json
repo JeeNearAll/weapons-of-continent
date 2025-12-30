@@ -1,0 +1,22 @@
+{
+  "item.weapons_of_continent.armored_authority_armor.desc": "Набор 'Стальной авторитет'",
+  "item.weapons_of_continent.armored_authority_helmet": "Железный шлем",
+  "item.weapons_of_continent.armored_authority_chestplate": "Железный нагрудник",
+  "item.weapons_of_continent.armored_authority_leggings": "Железные поножи",
+  "item.weapons_of_continent.armored_authority_boots": "Железные ботинки",
+
+  "item.weapons_of_continent.vanguard_armor.desc": "Набор 'Авангард'",
+  "item.weapons_of_continent.vanguard_helmet": "Незеритовый шлем",
+  "item.weapons_of_continent.vanguard_chestplate": "Незеритовый нагрудник",
+  "item.weapons_of_continent.vanguard_leggings": "Незеритовые поножи",
+  "item.weapons_of_continent.vanguard_boots": "Незеритовые ботинки",
+
+  "item.weapons_of_continent.intrusive_headset": "Экипировка для вторжения",
+  "curios.identifier.cosmetic_slot": "Косметический слот",
+
+  "item.weapons_of_continent.ar2": "Штурмовая Винтовка Mk.II",
+  "item.weapons_of_continent.autocannon_b": "Автопушка (шрапнельные)",
+  "item.weapons_of_continent.revolver": "Офицерский Револьвер",
+  
+  "creativetab.weapons_of_continent": "Оружие Континента"
+}

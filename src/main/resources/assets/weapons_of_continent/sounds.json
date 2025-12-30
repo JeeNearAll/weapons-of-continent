@@ -1,0 +1,8 @@
+{
+    "autocannon_fire":{
+        "subtitle": "subtitle.autocannon.fire",
+        "sounds":[
+            {"name": "weapons_of_continent:gun/autocannon_fire"}
+        ]
+    }
+}
