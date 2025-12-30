@@ -4,7 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.jeenearall.weapons_of_continent.client.ClientGunHandler;
 import net.jeenearall.weapons_of_continent.client.ModCreativeModeTabs;
 import net.jeenearall.weapons_of_continent.client.sound.ModSounds;
-import net.jeenearall.weapons_of_continent.item.ModItems;
+import net.jeenearall.weapons_of_continent.common.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;

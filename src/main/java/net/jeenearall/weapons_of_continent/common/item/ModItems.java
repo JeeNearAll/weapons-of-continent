@@ -1,10 +1,9 @@
-package net.jeenearall.weapons_of_continent.item;
+package net.jeenearall.weapons_of_continent.common.item;
 
 import net.jeenearall.weapons_of_continent.WeaponsOfContinent;
-import net.jeenearall.weapons_of_continent.item.armor.ArmoredAuthorityArmorItem;
-import net.jeenearall.weapons_of_continent.item.armor.VanguardArmorItem;
-import net.jeenearall.weapons_of_continent.item.curios.IntrusiveHeadsetItem;
-import net.jeenearall.weapons_of_continent.item.gun.AnimatedShieldBreakingGunItem;
+import net.jeenearall.weapons_of_continent.common.item.armor.ArmoredAuthorityArmorItem;
+import net.jeenearall.weapons_of_continent.common.item.armor.VanguardArmorItem;
+import net.jeenearall.weapons_of_continent.common.item.curios.IntrusiveHeadsetItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
@@ -14,7 +13,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import ttv.migami.jeg.item.AnimatedGunItem;
-import ttv.migami.jeg.item.AnimatedMakeshiftGunItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEM =
@@ -46,7 +44,7 @@ public class ModItems {
             () -> new AnimatedGunItem(new Item.Properties().stacksTo(1)
                     .durability(320).rarity(Rarity.UNCOMMON), "revolver"));
     public static final RegistryObject<AnimatedGunItem> AUTOCANNON_B = ITEM.register("autocannon_b",
-            () -> new AnimatedShieldBreakingGunItem(new Item.Properties().stacksTo(1)
+            () -> new AnimatedGunItem(new Item.Properties().stacksTo(1)
                     .durability(1900).rarity(Rarity.EPIC), "autocannon_b"));
     public static final RegistryObject<AnimatedGunItem> AR2 = ITEM.register("ar2",
             () -> new AnimatedGunItem(new Item.Properties().stacksTo(1)

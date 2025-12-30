@@ -1,7 +1,7 @@
 package net.jeenearall.weapons_of_continent.datagen;
 
 import net.jeenearall.weapons_of_continent.WeaponsOfContinent;
-import net.jeenearall.weapons_of_continent.item.ModItems;
+import net.jeenearall.weapons_of_continent.common.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

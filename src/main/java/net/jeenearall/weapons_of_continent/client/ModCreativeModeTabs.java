@@ -1,7 +1,7 @@
 package net.jeenearall.weapons_of_continent.client;
 
 import net.jeenearall.weapons_of_continent.WeaponsOfContinent;
-import net.jeenearall.weapons_of_continent.item.ModItems;
+import net.jeenearall.weapons_of_continent.common.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

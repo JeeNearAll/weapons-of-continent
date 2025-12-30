@@ -5,7 +5,7 @@ import net.jeenearall.weapons_of_continent.WeaponsOfContinent;
 import net.jeenearall.weapons_of_continent.client.render.gun.AR2Model;
 import net.jeenearall.weapons_of_continent.client.render.gun.AutocannonBModel;
 import net.jeenearall.weapons_of_continent.client.render.gun.RevolverModel;
-import net.jeenearall.weapons_of_continent.item.ModItems;
+import net.jeenearall.weapons_of_continent.common.item.ModItems;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.common.Mod;

@@ -3,7 +3,7 @@ package net.jeenearall.weapons_of_continent.client.render.curios;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.jeenearall.weapons_of_continent.WeaponsOfContinent;
-import net.jeenearall.weapons_of_continent.item.curios.IntrusiveHeadsetItem;
+import net.jeenearall.weapons_of_continent.common.item.curios.IntrusiveHeadsetItem;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.renderer.MultiBufferSource;

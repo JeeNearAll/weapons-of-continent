@@ -1,4 +1,4 @@
-package net.jeenearall.weapons_of_continent.item.armor;
+package net.jeenearall.weapons_of_continent.common.item.armor;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;

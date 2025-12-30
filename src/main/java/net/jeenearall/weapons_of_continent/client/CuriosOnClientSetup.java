@@ -1,7 +1,7 @@
 package net.jeenearall.weapons_of_continent.client;
 
 import net.jeenearall.weapons_of_continent.client.render.curios.IntrusiveHeadsetRenderer;
-import net.jeenearall.weapons_of_continent.item.ModItems;
+import net.jeenearall.weapons_of_continent.common.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
