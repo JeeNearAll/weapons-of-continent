@@ -37,16 +37,16 @@ public class ModItems {
             () -> new VanguardArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.EPIC)));
     */
     public static final RegistryObject<Item> ARMORED_AUTHORITY_HELMET = ITEM.register("armored_authority_helmet",
-            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.RARE),
+            () -> new AnimatedArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.RARE),
                     "armored_authority"));
     public static final RegistryObject<Item> ARMORED_AUTHORITY_CHESTPLATE = ITEM.register("armored_authority_chestplate",
-            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.RARE),
+            () -> new AnimatedArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.RARE),
                     "armored_authority"));
     public static final RegistryObject<Item> ARMORED_AUTHORITY_LEGGINGS = ITEM.register("armored_authority_leggings",
-            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.RARE),
+            () -> new AnimatedArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.RARE),
                     "armored_authority"));
     public static final RegistryObject<Item> ARMORED_AUTHORITY_BOOTS = ITEM.register("armored_authority_boots",
-            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.RARE),
+            () -> new AnimatedArmorItem(ArmorMaterials.IRON, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.RARE),
                     "armored_authority"));
 
     public static final RegistryObject<Item> VANGUARD_HELMET = ITEM.register("vanguard_helmet",
