@@ -31,6 +31,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.VANGUARD_LEGGINGS.get());
                         pOutput.accept(ModItems.VANGUARD_BOOTS.get());
 
+                        pOutput.accept(ModItems.PROSPECTOR_HELMET.get());
+                        pOutput.accept(ModItems.PROSPECTOR_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PROSPECTOR_LEGGINGS.get());
+                        pOutput.accept(ModItems.PROSPECTOR_BOOTS.get());
+
                         pOutput.accept(ModItems.INTRUSIVE_HEADSET.get());
 
                         pOutput.accept(ModItems.AUTOCANNON_B.get());

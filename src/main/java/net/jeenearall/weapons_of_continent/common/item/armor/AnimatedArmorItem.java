@@ -1,6 +1,6 @@
 package net.jeenearall.weapons_of_continent.common.item.armor;
 
-import net.jeenearall.weapons_of_continent.client.render.armor.VanguardArmorRenderer;
+import net.jeenearall.weapons_of_continent.client.render.armor.AnimatedArmorRenderer;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;
@@ -24,12 +24,14 @@ import software.bernie.geckolib.util.GeckoLibUtil;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class VanguardArmorItem extends ArmorItem implements GeoItem {
+public class AnimatedArmorItem extends ArmorItem implements GeoItem {
 
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
-
-    public VanguardArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
+    public String resourceKey;
+    public AnimatedArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties,
+                             String resourceKey) {
         super(pMaterial, pType, pProperties);
+        this.resourceKey = resourceKey;
     }
 
     @Override
@@ -40,12 +42,9 @@ public class VanguardArmorItem extends ArmorItem implements GeoItem {
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemStack, EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new VanguardArmorRenderer();
+                    this.renderer = new AnimatedArmorRenderer(resourceKey);
 
-                // This prepares our GeoArmorRenderer for the current render frame.
-                // These parameters may be null however, so we don't do anything further with them
                 this.renderer.prepForRender(livingEntity, itemStack, equipmentSlot, original);
-
                 return this.renderer;
             }
         });
@@ -66,13 +65,14 @@ public class VanguardArmorItem extends ArmorItem implements GeoItem {
         return false;
     }
 
-    public @NotNull Component getName(ItemStack Stack, ArmorItem.Type Type){
-        return Component.translatable("item.minecraft.netherite_" + Type.toString());
-    }
+    /* Attempt to make an item use vanilla translatable component. Don't know why it doesn't work
+    public @NotNull Component getName(ItemStack Stack, ArmorItem.Type type){
+        return Component.translatable("item.minecraft.iron_boots");
+    }*/
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level worldIn, List<Component> tooltip, TooltipFlag flagIn) {
-        tooltip.add(Component.translatable("item.weapons_of_continent.vanguard_armor.desc").withStyle(ChatFormatting.GRAY));
+        
+        tooltip.add(Component.translatable("item.weapons_of_continent." + resourceKey + ".desc").withStyle(ChatFormatting.GRAY));
     }
 }
-

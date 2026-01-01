@@ -23,10 +23,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ARMORED_AUTHORITY_CHESTPLATE);
         simpleItem(ModItems.ARMORED_AUTHORITY_LEGGINGS);
         simpleItem(ModItems.ARMORED_AUTHORITY_BOOTS);
+
         simpleItem(ModItems.VANGUARD_HELMET);
         simpleItem(ModItems.VANGUARD_CHESTPLATE);
         simpleItem(ModItems.VANGUARD_LEGGINGS);
         simpleItem(ModItems.VANGUARD_BOOTS);
+
+        simpleItem(ModItems.PROSPECTOR_HELMET);
+        simpleItem(ModItems.PROSPECTOR_CHESTPLATE);
+        simpleItem(ModItems.PROSPECTOR_LEGGINGS);
+        simpleItem(ModItems.PROSPECTOR_BOOTS);
+
         simpleItem(ModItems.INTRUSIVE_HEADSET);
 
     }

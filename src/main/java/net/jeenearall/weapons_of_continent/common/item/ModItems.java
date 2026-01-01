@@ -1,8 +1,7 @@
 package net.jeenearall.weapons_of_continent.common.item;
 
 import net.jeenearall.weapons_of_continent.WeaponsOfContinent;
-import net.jeenearall.weapons_of_continent.common.item.armor.ArmoredAuthorityArmorItem;
-import net.jeenearall.weapons_of_continent.common.item.armor.VanguardArmorItem;
+import net.jeenearall.weapons_of_continent.common.item.armor.AnimatedArmorItem;
 import net.jeenearall.weapons_of_continent.common.item.curios.IntrusiveHeadsetItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
@@ -18,7 +17,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEM =
             DeferredRegister.create(ForgeRegistries.ITEMS, WeaponsOfContinent.MODID);
 
-
+    /*
     public static final RegistryObject<Item> ARMORED_AUTHORITY_HELMET = ITEM.register("armored_authority_helmet",
             () -> new ArmoredAuthorityArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.RARE)));
     public static final RegistryObject<Item> ARMORED_AUTHORITY_CHESTPLATE = ITEM.register("armored_authority_chestplate",
@@ -36,6 +35,45 @@ public class ModItems {
             () -> new VanguardArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> VANGUARD_BOOTS = ITEM.register("vanguard_boots",
             () -> new VanguardArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.EPIC)));
+    */
+    public static final RegistryObject<Item> ARMORED_AUTHORITY_HELMET = ITEM.register("armored_authority_helmet",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.RARE),
+                    "armored_authority"));
+    public static final RegistryObject<Item> ARMORED_AUTHORITY_CHESTPLATE = ITEM.register("armored_authority_chestplate",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.RARE),
+                    "armored_authority"));
+    public static final RegistryObject<Item> ARMORED_AUTHORITY_LEGGINGS = ITEM.register("armored_authority_leggings",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.RARE),
+                    "armored_authority"));
+    public static final RegistryObject<Item> ARMORED_AUTHORITY_BOOTS = ITEM.register("armored_authority_boots",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.RARE),
+                    "armored_authority"));
+
+    public static final RegistryObject<Item> VANGUARD_HELMET = ITEM.register("vanguard_helmet",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.EPIC),
+                    "vanguard"));
+    public static final RegistryObject<Item> VANGUARD_CHESTPLATE = ITEM.register("vanguard_chestplate",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.EPIC),
+                    "vanguard"));
+    public static final RegistryObject<Item> VANGUARD_LEGGINGS = ITEM.register("vanguard_leggings",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.EPIC),
+                    "vanguard"));
+    public static final RegistryObject<Item> VANGUARD_BOOTS = ITEM.register("vanguard_boots",
+            () -> new AnimatedArmorItem(ArmorMaterials.NETHERITE, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.EPIC),
+                    "vanguard"));
+
+    public static final RegistryObject<Item> PROSPECTOR_HELMET = ITEM.register("prospector_helmet",
+            () -> new AnimatedArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties().rarity(Rarity.RARE),
+                    "prospector"));
+    public static final RegistryObject<Item> PROSPECTOR_CHESTPLATE = ITEM.register("prospector_chestplate",
+            () -> new AnimatedArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties().rarity(Rarity.RARE),
+                    "prospector"));
+    public static final RegistryObject<Item> PROSPECTOR_LEGGINGS = ITEM.register("prospector_leggings",
+            () -> new AnimatedArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties().rarity(Rarity.RARE),
+                    "prospector"));
+    public static final RegistryObject<Item> PROSPECTOR_BOOTS = ITEM.register("prospector_boots",
+            () -> new AnimatedArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, new Item.Properties().rarity(Rarity.RARE),
+                    "prospector"));
 
     public static final RegistryObject<Item> INTRUSIVE_HEADSET = ITEM.register("intrusive_headset",
             ()-> new IntrusiveHeadsetItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Properties()));
